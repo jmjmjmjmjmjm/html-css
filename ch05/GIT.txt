@@ -1,0 +1,27 @@
+GIT : 형상 관리 도구
+형상 : 사진 - snapshot
+
+1. 협업 툴
+2. 형상 관리
+
+브랜치(branch)를 나누어서 분할 작업 후 병합(merge)하여 프로젝트 진행
+
+실시간 화면
+
+이전에 commit한 버전으로 롤백가능
+
+work space 영역[실시간 화면]
+
+Index 영역 [캡처]
+
+Head 영역 [사진첩]
+
+git init
+git add
+git commit = 영구히 기록하다. 
+  		 데이터베이스의 commit은 하드디스크에 기록하다.
+git log
+git reset = 특정 커밋으로 복구
+	리셋은 헤더를 옮기는 것
+
+git pull
