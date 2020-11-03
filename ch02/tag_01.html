@@ -1,4 +1,16 @@
 <html>
+    <head>
+    <style>
+        li{
+            display: inline;
+        }
+        div{
+                width: 300px;
+
+        }
+        
+    </style>
+    </head>
     <body>
         <!-- 헤딩 테그 h1 ~ h6 -->
         <h1>제목1</h1>
@@ -26,5 +38,68 @@
         <b>글자</b>
 
         <!-- 모든태그는 div 아니면 span에서 파생-->
+    
+        <!-- 목록 태그 -->
+        <!--모든 웹 사트의 메뉴는 ul(unorder list)태그-->
+        <ul>
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+        </ul>
+        <!-- 순서가 있는 리스트 ol 1.2.3.-->
+
+        <div>
+            안녕
+        </div>
+
+        <!-- 표를 만드는 태그 -->
+        <!-- 주로 게시판에서 많이 활용된다. -->
+        <table border="1">
+            <tr><!--하나의 행 나를 감싸고 있는 부모(tbody)의 크기에 따라 block 이라도 작게 잡힌다.-->
+                <td>번호</td>
+                <td>제목</td>
+                <td>작성자</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>제목1</td>
+                <td>작성자1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>제목2</td>
+                <td>작성자2</td>
+            </tr>
+        </table>
+        <br/>
+        <!--  rowspan colspan 속성 - 행 열 합치기 -->
+        <h1>
+            특색있는 숙소와 <br/>
+            거리를 예약하세요
+        </h1>
+        <table border="1">
+            <tr>
+                <td colspan="2"><b>목적지</b></td>
+            </tr>
+            <tr>
+                <td colspan="2">모든 위치</td>
+            </tr>
+            <tr>
+                <td><b>체크인</b></td>
+                <td><b>체크 아웃</b></td>
+            </tr>
+            <tr>
+                <td>연도-월-일</td>
+                <td>연도-월-일</td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>인원</b></td>
+            </tr>
+            <tr>
+                <td colspan="2">인원</td>
+            </tr>
+        </table>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </body>
+
 </html>
