@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Flex01</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .outer{
+            /*margin 마진을(여백을)준다*/
+            margin:0 auto; /*세로 X 가로*/
+            /*auto는 중간값으로 가운데에 자동으로 맞춰줌*/
+            text-align: center;
+            border:1px solid red;
+            width: 80%;
+            
+
+        }
+        .container{
+            display: inline-block;
+            text-align: center;
+            border: 3px solid green;
+            width: 800px;
+        }
+        .box{
+            display: inline-block;
+            /*그냥inline은 높이가 깨짐*/
+            /*inline-block은 높이를 가지는 inline*/
+            border: 1px solid black;
+            height: 100px;
+            width: 200px;
+            text-align: center;/*텍스트 가운데 정렬*/
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="container">
+            <div class="box">첫번째 박스</div>
+            <div class="box">두번째 박스</div>
+            <div class="box">세번째 박스</div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
+<!-- 디자인에서 가장 어려운 것이 레이아웃을 잡는것 -->
+<!-- 모든부분에서 적용받는게 flex -->

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <style>
+            .flex-container{
+                display: flex;
+                padding: 20px;
+                border: 5px solid black;
+                background-color: lightblue;
+                flex-wrap: wrap; 
+                /*wrap 크기가 줄어들면 아래로 내려감*/
+                justify-content: space-around;
+            }
+            .item{
+                border: 2px solid red;
+                background-color: lightcyan;
+                width: 100px;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </body>
+</html>
